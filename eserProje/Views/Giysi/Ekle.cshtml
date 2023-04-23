@@ -1,0 +1,63 @@
+﻿@model GiysiViewModel
+
+@{
+    ViewData["Title"] = "Ekle";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="col-xl-6 col-lg-12">
+    <div class="card">
+        <div class="card-header">
+            <h4 class="card-title">GİYSİ YÖNETİMİ</h4>
+        </div>
+        <div class="card-body">
+            <div class="basic-form">
+                <form asp-controller="Giysi" asp-action="Ekle" method="post">
+                    <div asp-validation-summary="All" class="text-danger"> </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-12">
+                            <label>Giysi Adı</label>
+                            <input type="text" name="ClothName" class="form-control" value="@Model.Cloth.ClothName">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-12">
+                            <label>Fiyat</label>
+                            <input type="text" name="Price" class="form-control" value="@Model.Cloth.Price">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-12">
+                            <label>Açıklama</label>
+                            <input type="text" name="Description" class="form-control" value="@Model.Cloth.Description">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-12">
+                            <label>Kategori</label>
+                            <div class="dropdown bootstrap-select form-control">
+                                <select id="inputState" class="form-control" name="CategoryID" tabindex="-98">
+
+                                    @foreach (Category category in Model.Categories)
+                                    {
+                                        if (category.CategoryID == Model.Cloth.CategoryID)
+                                        {
+                                            <option selected value="@category.CategoryID">@category.CategoryName</option>
+                                        }
+                                        else
+                                        {
+                                            <option value="@category.CategoryID">@category.CategoryName</option>
+                                        }
+                                    }
+
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">EKLE</button>
+                    <a style="float:right" class="btn" asp-action="Listele">Geri Dön</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

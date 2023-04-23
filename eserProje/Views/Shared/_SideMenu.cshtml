@@ -1,0 +1,45 @@
+﻿<!--**********************************
+    Sidebar start
+***********************************-->
+<div class="deznav">
+    <div class="deznav-scroll">
+        <ul class="metismenu" id="menu">
+            <li>
+                <a asp-controller="AdminHome" asp-action="Index" class="ai-icon" aria-expanded="false">
+                    <i class="flaticon-381-settings-2"></i>
+                    <span class="nav-text">Anasayfa</span>
+                </a>
+            </li>
+            <li>
+                <a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
+                    <i class="flaticon-381-layer-1"></i>
+                    <span class="nav-text">VERİ YÖNETİMİ</span>
+                </a>
+                <ul aria-expanded="false">
+                    <li><a asp-controller="Giysi" asp-action="Listele">Giysiler</a></li>
+                </ul>
+                  <ul aria-expanded="false">
+                    <li><a asp-controller="Begeni" asp-action="Listele">Beğeniler</a></li>
+                </ul>
+            </li>
+            <li>
+                <a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
+                    <i class="flaticon-381-layer-1"></i>
+                    <span class="nav-text">LİSTE YÖNETİMİ</span>
+                </a>
+                <ul aria-expanded="false">
+                    <li><a asp-controller="Kategori" asp-action="Listele">Kategoriler</a></li>
+                    <li><a asp-controller="AnaKategori" asp-action="Listele">Ana Kategoriler</a></li>
+                </ul>
+            </li>
+        </ul>
+
+        <div class="copyright">
+            <p><strong>Giysininiyisi</strong> © 2022 Tüm Hakları Saklıdır.</p>
+            <p>Eser Cihan tarafından <i class="fa fa-heart"></i> ile yapıldı.</p>
+        </div>
+    </div>
+</div>
+<!--**********************************
+    Sidebar end
+***********************************-->

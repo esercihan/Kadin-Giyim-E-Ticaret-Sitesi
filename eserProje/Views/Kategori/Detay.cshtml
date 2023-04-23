@@ -1,0 +1,29 @@
+﻿@model eserProje.Models.Category
+
+@{
+    ViewData["Title"] = "Detay";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Detay</h1>
+
+<div class="col-xl-4">
+    <div class="card">
+        <div class="card-header">
+            <h4 class="card-title">Kategori Detayı</h4>
+        </div>
+        <div class="card-body">
+            <div class="basic-list-group">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><strong>ID</strong> : @Model.CategoryID</li>
+                    <li class="list-group-item"><strong>Kategori Adı</strong> : @Model.CategoryName</li>
+                    <li class="list-group-item"><strong>Ana Kategori Adı</strong> : @Model.MainCategory.MainCategoryName</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div>
+    <a class="btn" asp-action="Duzenle" asp-route-id="@Model?.CategoryID">Düzenle</a> |
+     <a class="btn" asp-action="Listele">Geri Dön</a>
+</div>

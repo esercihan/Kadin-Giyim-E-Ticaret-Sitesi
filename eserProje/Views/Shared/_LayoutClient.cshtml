@@ -1,0 +1,384 @@
+﻿<html lang="en" style="--vh:8.21px; --scrollW:21px;">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Giysininiyisi - İyi Giyinmek Herkesin Hakkı</title>
+    <link rel="shortcut icon" type="image/x-icon" href="~/adminnn/images/logo.png">
+    <!-- Vendor CSS -->
+    <link href="/clientt/css/vendor/bootstrap.min.css" rel="stylesheet">
+    <link href="/clientt/css/vendor/vendor.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="/clientt/css/style.css" rel="stylesheet">
+    <!-- Custom font -->
+    <link href="/clientt/fonts/icomoon/icons.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open%20Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
+    <style id="inert-style">
+        [inert] {
+            pointer-events: none;
+            cursor: default;
+        }
+
+            [inert], [inert] * {
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+            }
+    </style>
+ 
+</head>
+<body class="has-smround-btns has-loader-bg equal-height win documentLoad has-hdr_sticky no-loader">
+    <!--header-->
+    <header class="hdr-wrap">
+        <div class="hdr-content hdr-content-sticky">
+            <div class="container">
+                <div class="row">
+                    <div class="col-auto hdr-logo">
+                        <a asp-controller="Home" asp-action="Index" class="logo"><img src="~/adminnn/images/logo-long.png" alt="Logo"></a>
+                    </div>
+                    <!--navigation-->
+                    <div class="hdr-nav hide-mobile nav-holder-s">
+                    </div>
+                    <!--//navigation-->
+                    <div class="hdr-links-wrap col-auto ml-auto">
+                        <div class="hdr-inline-link">
+                            <!-- Header Search -->
+                            <div class="search_container_desktop">
+                                <div class="dropdn dropdn_search dropdn_fullwidth">
+                                    <a href="#" class="dropdn-link  js-dropdn-link only-icon"><i class="icon-search"></i><span class="dropdn-link-txt">Search</span></a>
+                                    <div class="dropdn-content" style="max-height: 821px; top: 70.9961px;">
+                                        <div class="container">
+                                            <form method="get" action="#" class="search search-off-popular">
+                                                <input name="search" type="text" class="search-input input-empty" placeholder="What are you looking for?">
+                                                <button type="submit" class="search-button"><i class="icon-search"></i></button>
+                                                <a href="#" class="search-close js-dropdn-close"><i class="icon-close-thin"></i></a>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /Header Search -->
+                            <!-- Header Account -->
+                            <div class="dropdn dropdn_account dropdn_fullheight">
+                                <a href="#" class="dropdn-link js-dropdn-link js-dropdn-link only-icon" data-panel="#dropdnAccount"><i class="icon-user"></i><span class="dropdn-link-txt">Üye Girişi / Üye Ol</span></a>
+                            </div>
+                            <!-- /Header Account -->
+                            <div>
+                                <a href="#" class="dropdn-link js-dropdn-link minicart-link only-icon" data-panel="#dropdnMinicart">
+                                    <i class="icon-basket"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hdr">
+            <div class="hdr-topline hdr-topline--dark js-hdr-top">
+                <div class="container">
+                    <div class="row flex-nowrap">
+                        <div class="col hdr-topline-left hide-mobile">
+                            <!-- Header Social -->
+                            <div class="hdr-line-separate">
+                                <ul class="social-list list-unstyled">
+                                    <li>
+                                        <a href="#"><i class="icon-facebook"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="icon-twitter"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="icon-google"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="icon-instagram"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="icon-vimeo"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="icon-linkedin"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- /Header Social -->
+                        </div>
+                        <div class="col hdr-topline-right hide-mobile">
+                            <div class="hdr_container_desktop">
+                                <!-- Header Account -->
+                                <div class="dropdn dropdn_account dropdn_fullheight">
+                                    <a href="#" class="dropdn-link js-dropdn-link" data-panel="#dropdnAccount"><i class="icon-user"></i><span class="dropdn-link-txt">Üye Girişi / Üye Ol</span></a>
+                                </div>
+                                <!-- /Header Account -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hdr-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-auto hdr-logo">
+                        <a asp-controller="Home" asp-action="Index" class="logo"><img src="~/adminnn/images/logo-long.png" alt="Logo"></a>
+                    </div>
+                    <!--navigation-->
+                    <div class="hdr-nav hide-mobile nav-holder justify-content-center px-4" style="height: 75.2344px;">
+                        <!--mmenu-->
+                        <ul class="mmenu mmenu-js">
+                            <li class="mmenu-item--simple">
+
+                                <a asp-controller="Home" asp-action="Index" class="active">Anasayfa</a>
+
+                            </li>
+                            <li class="mmenu-item--simple">
+
+                                <a asp-controller="Hakkimizda" asp-action="Index">Hakkımızda</a>
+
+                            </li>
+                            <li class="mmenu-item--mega">
+
+                                <a href="#">Giyim</a>
+                                <div class="mmenu-submenu mmenu-submenu--has-bottom">
+                                    <div class="mmenu-submenu-inside">
+                                        <div class="container">
+                                            <div class="mmenu-left width-25">
+                                            </div>
+                                            <div class="mmenu-cols column-3">
+                                                <div class="mmenu-col">
+                                                    <h3 class="submenu-title"><a asp-controller="UstGiyim" asp-action="Index">ÜST GİYİM</a></h3>
+                                                    <ul class="submenu-list">
+                                                        <li><a asp-controller="UstGiyim" asp-action="Abiye">Abiye</a></li>
+                                                        <li><a asp-controller="UstGiyim" asp-action="Elbise">Elbise</a></li>
+                                                        <li><a asp-controller="UstGiyim" asp-action="Takim">Takım</a></li>
+                                                        <li><a asp-controller="UstGiyim" asp-action="Tulum">Tulum</a></li>
+                                                        <li><a asp-controller="UstGiyim" asp-action="Bluz">Bluz</a></li>
+                                                        <li><a asp-controller="UstGiyim" asp-action="Gomlek">Gömlek</a></li>
+                                                        <li><a asp-controller="UstGiyim" asp-action="TShirt">T-Shirt</a></li>
+                                                    </ul>
+                                                </div><div class="mmenu-col">
+                                                    <h3 class="submenu-title"><a asp-controller="DisGiyim" asp-action="Index">DIŞ GİYİM</a></h3>
+                                                    <ul class="submenu-list">
+                                                        <li><a asp-controller="DisGiyim" asp-action="Ceket">Ceket</a></li>
+                                                        <li><a asp-controller="DisGiyim" asp-action="Trenckot">Trençkot</a></li>
+                                                        <li><a asp-controller="DisGiyim" asp-action="Yelek">Yelek</a></li>
+                                                        <li><a asp-controller="DisGiyim" asp-action="KotCeket">Kot Ceket</a></li>
+                                                        <li><a asp-controller="DisGiyim" asp-action="MontKaban">Mont Kaban</a></li>
+                                                    </ul>
+                                                </div><div class="mmenu-col">
+                                                    <h3 class="submenu-title"><a asp-controller="AltGiyim" asp-action="Index">ALT GİYİM</a></h3>
+                                                    <ul class="submenu-list">
+                                                        <li><a asp-controller="AltGiyim" asp-action="Pantolon">Pantolon</a></li>
+                                                        <li><a asp-controller="AltGiyim" asp-action="JeanPantolon">Jean Pantolon</a></li>
+                                                        <li><a asp-controller="AltGiyim" asp-action="Etek">Etek</a></li>
+                                                        <li><a asp-controller="AltGiyim" asp-action="Tayt">Tayt</a></li>
+                                                        <li><a asp-controller="AltGiyim" asp-action="Esofman">Eşofman</a></li>
+                                                        <li><a asp-controller="AltGiyim" asp-action="Sort">Şort</a></li>
+                                                    </ul>
+                                                </div>
+
+                                                <div class="mmenu-bottom justify-content-center">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <!--/mmenu-->
+                    </div>
+                    <!--//navigation-->
+                    <div class="hdr-links-wrap col-auto ml-auto">
+                        <div class="hdr-inline-link">
+                            <!-- Header Search -->
+                            <div class="search_container_desktop">
+                                <div class="dropdn dropdn_search dropdn_fullwidth">
+                                    <a href="#" class="dropdn-link  js-dropdn-link only-icon"><i class="icon-search"></i><span class="dropdn-link-txt">Search</span></a>
+                                    <div class="dropdn-content" style="max-height: 821px; top: 90.9961px;">
+                                        <div class="container">
+                                            <form asp-controller="Home" asp-action="Arama" method="get" class="search search-off-popular">
+                                                <input name="aranacak" type="text" class="search-input input-empty" placeholder="Hangi ürünü aramıştınız?">
+                                                <button type="submit" class="search-button"><i class="icon-search"></i></button>
+                                                <a href="#" class="search-close js-dropdn-close"><i class="icon-close-thin"></i></a>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /Header Search -->
+                            <div class="hdr_container_mobile show-mobile">
+                                <!-- Header Account -->
+                                <div class="dropdn dropdn_account dropdn_fullheight">
+                                    <a href="#" class="dropdn-link js-dropdn-link" data-panel="#dropdnAccount"><i class="icon-user"></i><span class="dropdn-link-txt">Üye Girişi / Üye Ol</span></a>
+                                </div>
+                                <!-- /Header Account -->
+                            </div>
+                            <div>
+                                <a href="#" class="dropdn-link js-dropdn-link minicart-link" data-panel="#dropdnMinicart">
+                                    <i class="icon-basket"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <div class="header-side-panel">
+        <!-- Mobile Menu -->
+        <div class="mobilemenu js-push-mbmenu">
+            <div class="mobilemenu-content loaded">
+                <div class="mobilemenu-close mobilemenu-toggle">Close</div>
+                <div class="mobilemenu-scroll ps ps--theme_default" data-ps-id="d021091d-4060-7a8e-5dc2-4e2f46f925ee">
+                    <div class="mobilemenu-search"></div>
+                    <div class="nav-wrapper show-menu">
+                        <div class="nav-toggle">
+                            <span class="nav-back"><i class="icon-angle-left"></i></span>
+                            <span class="nav-title"></span>
+                            <a href="#" class="nav-viewall">view all</a>
+                        </div>
+                    </div>
+                    <div class="ps__scrollbar-x-rail" style="left: 0px; bottom: 0px;"><div class="ps__scrollbar-x" tabindex="0" style="left: 0px; width: 0px;"></div></div><div class="ps__scrollbar-y-rail" style="top: 0px; right: 0px;"><div class="ps__scrollbar-y" tabindex="0" style="top: 0px; height: 0px;"></div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--//header-->
+    @RenderBody()
+
+
+
+    <footer class="page-footer footer-style-6 ">
+        <div class="holder ">
+            <div class="footer-shop-info">
+                <div class="container">
+                    <div class="text-icn-blocks-bg-row">
+                        <div class="text-icn-block-footer">
+                            <div class="icn">
+                                <i class="icon-trolley"></i>
+                            </div>
+                            <div class="text">
+                                <h4>Ekstra hızlı teslimat</h4>
+                                <p>Tüm öğeleriniz mevcut olduktan sonra siparişiniz 3-5 iş günü içinde teslim edilecektir</p>
+                            </div>
+                        </div>
+                        <div class="text-icn-block-footer">
+                            <div class="icn">
+                                <i class="icon-currency"></i>
+                            </div>
+                            <div class="text">
+                                <h4>En iyi fiyat</h4>
+                                <p>Önemli çevrimiçi ve yerel rakiplerin ürün fiyatlarını hemen eşleştireceğiz</p>
+                            </div>
+                        </div>
+                        <div class="text-icn-block-footer">
+                            <div class="icn">
+                                <i class="icon-diplom"></i>
+                            </div>
+                            <div class="text">
+                                <h4>Garanti</h4>
+                                <p>İstediğiniz öğe mevcutsa, bir iade işlemi yapabilir ve yeni bir sipariş verebiliriz</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-top">
+            <div class="container">
+                <div class="row mt-0">
+                    <div class="col-lg col-xl last-mobile col-no-collapsed">
+                        <div class="footer-block">
+                            <div class="footer-logo">
+                                <a asp-controller="Home" asp-action="Index"><img class="lazyload fade-up" src="~/adminnn/images/logo-long.png" alt="Logo"></a>
+                            </div>
+                            <div class="collapsed-content">
+                                <ul>
+                                    <li>E-mail: <a href="mailto:giysininiyisi@gmail.com">giysininiyisi@gmail.com</a></li>
+                                </ul>
+                            </div>
+                            <ul class="social-list">
+                                <li>
+                                    <a href="#" class="icon icon-facebook"></a>
+                                </li>
+                                <li>
+                                    <a href="#" class="icon icon-twitter"></a>
+                                </li>
+                                <li>
+                                    <a href="#" class="icon icon-google"></a>
+                                </li>
+                                <li>
+                                    <a href="#" class="icon icon-vimeo"></a>
+                                </li>
+                                <li>
+                                    <a href="#" class="icon icon-youtube"></a>
+                                </li>
+                                <li>
+                                    <a href="#" class="icon icon-pinterest"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg col-xl">
+                        <div class="footer-block collapsed-mobile">
+                            <div class="title">
+                                <h4>Güvenli ödeme</h4>
+                                <span class="toggle-arrow"><span></span><span></span></span>
+                            </div>
+                            <div class="collapsed-content">
+                                <ul class="payment-link">
+                                    <li><i class="icon-amazon-logo"></i></li>
+                                    <li><i class="icon-master-card-logo"></i></li>
+                                    <li><i class="icon-visa-pay-logo"></i></li>
+                                    <li><i class="icon-american-express-logo"></i></li>
+                                    <li><i class="icon-skrill-logo"></i></li>
+                                    <li><i class="icon-paypal-logo"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom footer-bottom--bg">
+            <div class="container">
+                <div class="footer-copyright text-center">
+                    <a href="#">Giysininiyisi</a> ©2022 Tüm Hakları Saklıdır.
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="footer-sticky">
+        <!-- back to top -->
+        <a class="back-to-top js-back-to-top compensate-for-scrollbar" href="#" title="Scroll To Top">
+            <i class="icon icon-angle-up"></i>
+        </a>
+        <!-- loader -->
+        <div class="loader-horizontal js-loader-horizontal">
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 100%"></div>
+            </div>
+        </div>
+    </div>
+    <script src="/clientt/js/vendor-special/lazysizes.min.js"></script>
+    <script src="/clientt/js/vendor-special/ls.bgset.min.js"></script>
+    <script src="/clientt/js/vendor-special/ls.aspectratio.min.js"></script>
+    <script src="/clientt/js/vendor-special/jquery.min.js"></script>
+    <script src="/clientt/js/vendor-special/jquery.ez-plus.js"></script>
+    <script src="/clientt/js/vendor-special/instafeed.min.js"></script>
+    <script src="/clientt/js/vendor/vendor.min.js"></script>
+    <script src="/clientt/js/app-html.js"></script>
+
+    <!-- Visual Studio Browser Link -->
+    <script type="text/javascript" src="/_vs/browserLink" async="async" id="__browserLink_initializationData" data-requestid="d31504881ac743939954c8ac920003e8" data-requestmappingfromserver="false" data-connecturl="http://localhost:51054/64813d75ac554fe18438253599169d48/browserLink"></script>
+    <!-- End Browser Link -->
+
+    <script src="/_framework/aspnetcore-browser-refresh.js"></script>
+    <live-preview-root></live-preview-root>
+</body>
+</html>

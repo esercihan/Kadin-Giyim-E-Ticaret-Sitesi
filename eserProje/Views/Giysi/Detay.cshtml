@@ -1,0 +1,31 @@
+﻿@model eserProje.Models.Cloth
+
+@{
+    ViewData["Title"] = "Detay";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Detay</h1>
+
+<div class="col-xl-4">
+    <div class="card">
+        <div class="card-header">
+            <h4 class="card-title">Giysi Detayı</h4>
+        </div>
+        <div class="card-body">
+            <div class="basic-list-group">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><strong>ID</strong> : @Model.ClothID</li>
+                    <li class="list-group-item"><strong>Giysi Adı</strong> : @Model.ClothName</li>
+                    <li class="list-group-item"><strong>Fiyat</strong> : @Model.Price</li>
+                    <li class="list-group-item"><strong>Açıklama</strong> : @Model.Description</li>
+                    <li class="list-group-item"><strong>Kategori</strong> : @Model.Category.CategoryName</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div>
+    <a class="btn" asp-action="Duzenle" asp-route-id="@Model?.ClothID">Düzenle</a> |
+     <a class="btn" asp-action="Listele">Geri Dön</a>
+</div>

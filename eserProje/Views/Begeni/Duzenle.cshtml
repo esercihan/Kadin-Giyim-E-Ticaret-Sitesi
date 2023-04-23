@@ -1,0 +1,74 @@
+﻿@model LikeViewModel
+
+@{
+    ViewData["Title"] = "Duzenle";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="col-xl-6 col-lg-12">
+    <div class="card">
+        <div class="card-header">
+            <h4 class="card-title">BEĞENİ YÖNETİMİ</h4>
+        </div>
+        <div class="card-body">
+            <div class="basic-form">
+                <form asp-controller="Begeni" asp-action="Duzenle" method="post">
+                    <div asp-validation-summary="All" class="text-danger"> </div>
+                    <input type="hidden" name="LikeeID" value="@Model.Likee.LikeeID"/>
+                    <div class="form-row">
+                        <div class="form-group col-md-12">
+                            <label>Kullanıcı</label>
+                            <div class="dropdown bootstrap-select form-control">
+                                <select id="inputState" class="form-control" name="UserrID" tabindex="-98">
+
+                                    @foreach (Userr userr in Model.Userrs)
+                                    {
+                                        if (userr.UserrID == Model.Likee.UserrID)
+                                        {
+                                            <option selected value="@userr.UserrID">@userr.Email</option>
+                                        }
+                                        else
+                                        {
+                                            <option value="@userr.UserrID">@userr.Email</option>
+                                        }
+                                    }
+
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-12">
+                            <label>Giysi</label>
+                            <div class="dropdown bootstrap-select form-control">
+                                <select id="inputState" class="form-control" name="ClothID" tabindex="-98">
+
+                                    @foreach (Cloth cloth in Model.Clothes)
+                                    {
+                                        if (cloth.ClothID == Model.Likee.ClothID)
+                                        {
+                                            <option selected value="@cloth.ClothID">@cloth.ClothName</option>
+                                        }
+                                        else
+                                        {
+                                            <option value="@cloth.ClothID">@cloth.ClothName</option>
+                                        }
+                                    }
+
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-12">
+                            <label>Beğeni Tarihi</label>
+                            <input type="datetime-local" name="LikeeDate" class="form-control" value="@Model.Likee.LikeeDate">
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">GÜNCELLE</button>
+                    <a style="float:right" class="btn btn-danger" asp-action="Listele">İPTAL</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

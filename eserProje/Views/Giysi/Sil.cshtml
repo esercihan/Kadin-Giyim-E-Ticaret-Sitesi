@@ -1,0 +1,46 @@
+﻿@model eserProje.Models.Cloth
+
+@{
+    ViewData["Title"] = "Sil";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Sil</h1>
+
+<h3>Silmek istediğinizden emin misiniz?</h3>
+<div>
+    <h4>Giysi</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ClothName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ClothName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Price)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Category)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Category.CategoryName)
+        </dd>
+    </dl>
+    
+    <form asp-action="Sil">
+        <input type="hidden" asp-for="ClothID" />
+        <input type="submit" value="SİL" class="btn btn-danger" /> |
+        <a class="btn" asp-action="Listele">Geri Dön</a>
+    </form>
+</div>

@@ -1,0 +1,301 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = eserProje
+build_property.RootNamespace = eserProje
+build_property.ProjectDir = C:\Users\Eser\Desktop\eserProje\eserProje\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Eser\Desktop\eserProje\eserProje
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Eser/Desktop/eserProje/eserProje/Views/AdminHome/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Ib21lXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eser/Desktop/eserProje/eserProje/Views/AltGiyim/Esofman.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx0R2l5aW1cRXNvZm1hbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eser/Desktop/eserProje/eserProje/Views/AltGiyim/Etek.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx0R2l5aW1cRXRlay5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eser/Desktop/eserProje/eserProje/Views/AltGiyim/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx0R2l5aW1cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eser/Desktop/eserProje/eserProje/Views/AltGiyim/JeanPantolon.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx0R2l5aW1cSmVhblBhbnRvbG9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eser/Desktop/eserProje/eserProje/Views/AltGiyim/Pantolon.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx0R2l5aW1cUGFudG9sb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eser/Desktop/eserProje/eserProje/Views/AltGiyim/Sort.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx0R2l5aW1cU29ydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eser/Desktop/eserProje/eserProje/Views/AltGiyim/Tayt.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx0R2l5aW1cVGF5dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eser/Desktop/eserProje/eserProje/Views/AnaKategori/Detay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5hS2F0ZWdvcmlcRGV0YXkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eser/Desktop/eserProje/eserProje/Views/AnaKategori/Duzenle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5hS2F0ZWdvcmlcRHV6ZW5sZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eser/Desktop/eserProje/eserProje/Views/AnaKategori/Ekle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5hS2F0ZWdvcmlcRWtsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eser/Desktop/eserProje/eserProje/Views/AnaKategori/Listele.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5hS2F0ZWdvcmlcTGlzdGVsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eser/Desktop/eserProje/eserProje/Views/AnaKategori/Sil.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5hS2F0ZWdvcmlcU2lsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eser/Desktop/eserProje/eserProje/Views/Begeni/Detay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmVnZW5pXERldGF5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eser/Desktop/eserProje/eserProje/Views/Begeni/Duzenle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmVnZW5pXER1emVubGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eser/Desktop/eserProje/eserProje/Views/Begeni/Ekle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmVnZW5pXEVrbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eser/Desktop/eserProje/eserProje/Views/Begeni/Listele.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmVnZW5pXExpc3RlbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eser/Desktop/eserProje/eserProje/Views/Begeni/Sil.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmVnZW5pXFNpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eser/Desktop/eserProje/eserProje/Views/DisGiyim/Ceket.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzR2l5aW1cQ2VrZXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eser/Desktop/eserProje/eserProje/Views/DisGiyim/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzR2l5aW1cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eser/Desktop/eserProje/eserProje/Views/DisGiyim/KotCeket.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzR2l5aW1cS290Q2VrZXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eser/Desktop/eserProje/eserProje/Views/DisGiyim/MontKaban.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzR2l5aW1cTW9udEthYmFuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eser/Desktop/eserProje/eserProje/Views/DisGiyim/Trenckot.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzR2l5aW1cVHJlbmNrb3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eser/Desktop/eserProje/eserProje/Views/DisGiyim/Yelek.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzR2l5aW1cWWVsZWsuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eser/Desktop/eserProje/eserProje/Views/GiysiDetay/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2l5c2lEZXRheVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eser/Desktop/eserProje/eserProje/Views/Giysi/Detay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2l5c2lcRGV0YXkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eser/Desktop/eserProje/eserProje/Views/Giysi/Duzenle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2l5c2lcRHV6ZW5sZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eser/Desktop/eserProje/eserProje/Views/Giysi/Ekle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2l5c2lcRWtsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eser/Desktop/eserProje/eserProje/Views/Giysi/Listele.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2l5c2lcTGlzdGVsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eser/Desktop/eserProje/eserProje/Views/Giysi/Sil.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2l5c2lcU2lsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eser/Desktop/eserProje/eserProje/Views/Hakkimizda/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFra2ltaXpkYVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eser/Desktop/eserProje/eserProje/Views/Hesap/AktivasyonEpostasiTekrarGonder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVzYXBcQWt0aXZhc3lvbkVwb3N0YXNpVGVrcmFyR29uZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eser/Desktop/eserProje/eserProje/Views/Hesap/EpostaGonderildiBilgilendirmesi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVzYXBcRXBvc3RhR29uZGVyaWxkaUJpbGdpbGVuZGlybWVzaS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eser/Desktop/eserProje/eserProje/Views/Hesap/Giris.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVzYXBcR2lyaXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eser/Desktop/eserProje/eserProje/Views/Hesap/Kayit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVzYXBcS2F5aXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eser/Desktop/eserProje/eserProje/Views/Home/Ara.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBcmEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eser/Desktop/eserProje/eserProje/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eser/Desktop/eserProje/eserProje/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eser/Desktop/eserProje/eserProje/Views/Kategori/Detay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlcRGV0YXkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eser/Desktop/eserProje/eserProje/Views/Kategori/Duzenle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlcRHV6ZW5sZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eser/Desktop/eserProje/eserProje/Views/Kategori/Ekle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlcRWtsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eser/Desktop/eserProje/eserProje/Views/Kategori/Listele.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlcTGlzdGVsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eser/Desktop/eserProje/eserProje/Views/Kategori/Sil.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlcU2lsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eser/Desktop/eserProje/eserProje/Views/Rolee/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZWVcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eser/Desktop/eserProje/eserProje/Views/Rolee/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZWVcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eser/Desktop/eserProje/eserProje/Views/Rolee/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZWVcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eser/Desktop/eserProje/eserProje/Views/Rolee/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZWVcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eser/Desktop/eserProje/eserProje/Views/Rolee/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eser/Desktop/eserProje/eserProje/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eser/Desktop/eserProje/eserProje/Views/Shared/_Header.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9IZWFkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eser/Desktop/eserProje/eserProje/Views/Shared/_Javascripts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9KYXZhc2NyaXB0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eser/Desktop/eserProje/eserProje/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eser/Desktop/eserProje/eserProje/Views/Shared/_LayoutClient.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRDbGllbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eser/Desktop/eserProje/eserProje/Views/Shared/_SideMenu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TaWRlTWVudS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eser/Desktop/eserProje/eserProje/Views/Shared/_Styles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TdHlsZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eser/Desktop/eserProje/eserProje/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eser/Desktop/eserProje/eserProje/Views/Userr/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnJcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eser/Desktop/eserProje/eserProje/Views/Userr/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnJcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eser/Desktop/eserProje/eserProje/Views/Userr/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnJcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eser/Desktop/eserProje/eserProje/Views/Userr/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnJcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eser/Desktop/eserProje/eserProje/Views/Userr/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eser/Desktop/eserProje/eserProje/Views/UstGiyim/Abiye.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN0R2l5aW1cQWJpeWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eser/Desktop/eserProje/eserProje/Views/UstGiyim/Bluz.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN0R2l5aW1cQmx1ei5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eser/Desktop/eserProje/eserProje/Views/UstGiyim/Elbise.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN0R2l5aW1cRWxiaXNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eser/Desktop/eserProje/eserProje/Views/UstGiyim/Gomlek.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN0R2l5aW1cR29tbGVrLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eser/Desktop/eserProje/eserProje/Views/UstGiyim/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN0R2l5aW1cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eser/Desktop/eserProje/eserProje/Views/UstGiyim/Takim.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN0R2l5aW1cVGFraW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eser/Desktop/eserProje/eserProje/Views/UstGiyim/TShirt.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN0R2l5aW1cVFNoaXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eser/Desktop/eserProje/eserProje/Views/UstGiyim/Tulum.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN0R2l5aW1cVHVsdW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eser/Desktop/eserProje/eserProje/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eser/Desktop/eserProje/eserProje/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

@@ -1,0 +1,54 @@
+﻿@model IEnumerable<eserProje.Models.MainCategory>
+
+@{
+    ViewData["Title"] = "Listele";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="row">
+    <div class="col-lg-12">
+        <div class="card">
+            <div class="card-header">
+                <h4 class="card-title">ANA KATEGORİ YÖNETİMİ</h4>
+                <a class="btn" asp-controller="AnaKategori" asp-action="Ekle">
+                    <i class='fas fa-plus-square fa-3x' style='color:#15a20b'></i>
+                    </a>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table table-responsive-md">
+                        <thead>
+                            <tr>
+                                <th style="width:80px;"><strong>ID</strong></th>
+                                <th><strong>Ana Kategori Adı</strong></th>
+                                <th><strong>İŞLEMLER</strong></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (MainCategory mainCategory in Model)
+                            {
+                                <tr>
+                                <td><strong>@mainCategory.MainCategoryID</strong></td>
+                                <td>@mainCategory.MainCategoryName</td>
+                                <td>
+                                    <div class="dropdown">
+                                        <button type="button" class="btn btn-success light sharp" data-toggle="dropdown" aria-expanded="false">
+                                            <svg width="20px" height="20px" viewBox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect x="0" y="0" width="24" height="24"></rect><circle fill="#000000" cx="5" cy="12" r="2"></circle><circle fill="#000000" cx="12" cy="12" r="2"></circle><circle fill="#000000" cx="19" cy="12" r="2"></circle></g></svg>
+                                        </button>
+                                        <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(0px, 40px, 0px);">
+                                            <a class="dropdown-item" asp-controller="AnaKategori" asp-action="Detay" asp-route-id="@mainCategory.MainCategoryID">Detay</a>
+                                            <a class="dropdown-item" asp-controller="AnaKategori" asp-action="Duzenle" asp-route-id="@mainCategory.MainCategoryID">Düzenle</a>
+                                            <a class="dropdown-item" asp-controller="AnaKategori" asp-action="Sil" asp-route-id="@mainCategory.MainCategoryID" >Sil</a>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

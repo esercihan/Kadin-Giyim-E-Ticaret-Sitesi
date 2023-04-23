@@ -1,0 +1,40 @@
+﻿@model eserProje.Models.Likee
+
+@{
+    ViewData["Title"] = "Sil";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Sil</h1>
+
+<h3>Silmek istediğinizden emin misiniz??</h3>
+<div>
+    <h4>Beğeni</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.LikeeDate)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.LikeeDate)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Userr)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Userr.Email)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Cloth)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Cloth.ClothName)
+        </dd>
+    </dl>
+    
+    <form asp-action="Sil">
+        <input type="hidden" asp-for="LikeeID" />
+        <input type="submit" value="SİL" class="btn btn-danger" /> |
+        <a class="btn" asp-action="Listele">Geri Dön</a>
+    </form>
+</div>

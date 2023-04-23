@@ -1,0 +1,77 @@
+﻿@model Userr
+
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Giysininiyisi - Giysininiyisi Admin Paneli</title>
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="~/adminnn/images/favicon.png">
+    <link href="~/adminnn/css/style.css" rel="stylesheet">
+
+</head>
+
+<body class="h-100">
+    <div class="authincation h-100">
+        <div class="container h-100">
+            <div class="row justify-content-center h-100 align-items-center">
+                <div class="col-md-6">
+                    <div class="authincation-content">
+                        <div class="row no-gutters">
+                            <div class="col-xl-12">
+                                <div class="auth-form">
+                                    <h4 class="text-center mb-4">Kayıt Ol</h4>
+                                    <form asp-controller="Hesap" asp-action="Kayit" method="post">
+                                        <div asp-validation-summary="All">
+                                            <div class="form-group">
+                                                <label class="mb-1"><strong>Email Adresi</strong></label>
+                                                <input type="email" name="Email" value="@Model.Email" class="form-control" placeholder="Email Adresi">
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="mb-1"><strong>Şifre</strong></label>
+                                                <input type="password" name="Password" class="form-control" placeholder="Şifre">
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="mb-1"><strong>Şifreyi Tekrar Girin</strong></label>
+                                                <input type="password" name="RePassword" class="form-control" placeholder="Şifre Tekrarı">
+                                            </div>
+                                            <div class="form-group row">
+                                                <div class="col-lg-12">
+                                                    <label class="css-control css-control-primary css-checkbox" for="val-terms">
+                                                        <input type="checkbox" class="css-control-input mr-2" id="val-terms" name="val-terms" value="1">
+                                                        <span class="css-control-indicator"></span> Şartlar ve Koşulları kabul ediyorum.
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="text-center mt-4">
+                                                <button type="submit" class="btn btn-primary btn-block">Kayıt Ol</button>
+                                            </div>
+                                        </div>
+
+                                    </form>
+                                    <div class="new-account mt-3">
+                                        <p>Zaten hesabınız var mı? <a class="text-primary" asp-controller="Hesap" asp-action="Giris">Buradan giriş yapın</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--**********************************
+        Scripts
+    ***********************************-->
+    <!-- Required vendors -->
+    <script src="~/adminnn/vendor/global/global.min.js"></script>
+    <script src="~/adminnn/vendor/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
+    <script src="~/adminnn/js/custom.min.js"></script>
+    <script src="~/adminnn/js/deznav-init.js"></script>
+
+</body>
+</html>

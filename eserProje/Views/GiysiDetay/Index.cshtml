@@ -1,0 +1,174 @@
+﻿@model GiysiDetayViewModel
+
+@{
+    Layout = "_LayoutClient";
+}
+
+
+
+
+<div>
+    <div class="holder breadcrumbs-wrap mt-0">
+        <div class="container">
+            <ul class="breadcrumbs">
+                <li><a asp-controller="Home" asp-action="Index">Anasayfa</a></li>
+                <li><a href="javascript:void(0);" onclick="    history.go(-1);" >@Model.Cloth.Category.CategoryName</a></li>
+                <li><span>@Model.Cloth.ClothName</span></li>
+            </ul>
+        </div>
+    </div>
+    <div class="holder">
+        <div class="container js-prd-gallery" id="prdGallery">
+            <div class="row prd-block prd-block-under prd-block--prv-bottom">
+                <div class="col">
+                    <div class="js-prd-d-holder">
+                        <div class="prd-block_title-wrap">
+                            <h1 class="prd-block_title">@Model.Cloth.ClothName</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row prd-block prd-block--prv-bottom">
+                <div class="col-md-8 col-lg-8 col-xl-8 ">
+                    <div class="aside-content">
+                        <div class="mb-2 js-prd-m-holder"></div>
+                        <div class="prd-block_main-image">
+                            <div class="prd-block_main-image-holder" id="prdMainImage">
+                                <div class="product-main-carousel js-product-main-carousel" data-zoom-position="inner">
+                                    <div><span class="prd-img"><img src="/../../clientt/images/cloth/@(Model.Cloth.ClothID).jpg" data-src="/../../clientt/images/cloth/@(Model.Cloth.ClothID).jpg" class="lazyload fade-up elzoom" alt="" data-zoom-image="/../../clientt/images/cloth/@(Model.Cloth.ClothID)" /></span></div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-10 col-lg-10 col-xl-10 mt-1 mt-md-0">
+                    <div class="prd-block_info prd-block_info--style1" data-prd-handle="/products/copy-of-suede-leather-mini-skirt">
+                        <div class="prd-block_info-top prd-block_info_item order-0 order-md-2">
+                            <div class="prd-block_price prd-block_price--style2">
+                                <div class="prd-block_price--actual">@Model.Cloth.Price TL</div>
+                            </div>
+                        </div>
+                        <div class="prd-block_description prd-block_info_item ">
+                            <h3>Ürün Açıklaması</h3>
+                            <p>@Model.Cloth.Description</p>
+                            <div class="mt-1"></div>
+                        </div>
+                        <div class="order-0 order-md-100">
+                            <form method="post" action="#">
+                                <div class="prd-block_options">
+                                    <div class="prd-size swatches">
+                                        <div class="option-label">Beden:</div>
+                                        <select class="form-control hidden single-option-selector-modalQuickView" id="SingleOptionSelector-1" data-index="option2">
+                                            <option value="Small" selected="selected">S</option>
+                                            <option value="Medium">M</option>
+                                            <option value="Large">L</option>
+                                            <option value="XLarge">XL</option>
+                                        </select>
+                                        <ul class="size-list js-size-list" data-select-id="SingleOptionSelector-1">
+                                            <li class="active"><a href="#" data-value="Small"><span class="value">S</span></a></li>
+                                            <li><a href="#" data-value="Medium"><span class="value">M</span></a></li>
+                                            <li><a href="#" data-value="Large"><span class="value">L</span></a></li>
+                                            <li><a href="#" data-value="XLarge"><span class="value">XL</span></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="prd-block_actions prd-block_actions--wishlist">
+                                    <div class="prd-block_qty">
+                                        <div class="qty qty-changer">
+                                            <button class="decrease js-qty-button"></button>
+                                            <input type="number" class="qty-input" name="quantity" value="1" data-min="1" data-max="1000">
+                                            <button class="increase js-qty-button"></button>
+                                        </div>
+                                    </div>
+                                    <div class="btn-wrap">
+                                        <button class="btn btn--add-to-cart js-trigger-addtocart js-prd-addtocart" data-product='{"name":  "Leather Pegged Pants ",  "url ": "product.html",  "path ": "images/skins/fashion/product-page/product-01.jpg",  "aspect_ratio ": "0.78"}'>Sepete Ekle</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="holder">
+        <div class="container">
+            <div class="title-wrap text-center">
+                <h2 class="h1-style">Bunlar da İlginizi Çekebilir</h2>
+            </div>
+            <div class="prd-grid-wrap position-relative">
+                <div class="prd-grid data-to-show-4 data-to-show-lg-4 data-to-show-md-3 data-to-show-sm-2 data-to-show-xs-2 js-category-grid" data-grid-tab-content>
+
+
+                    @foreach (Cloth cloth in @Model.Clothes)
+                    {
+
+                        <div class="prd prd--style2 prd-labels--max prd-labels-shadow ">
+                            <div class="prd-inside">
+                                <div class="prd-img-area">
+                                    <a asp-controller="GiysiDetay" asp-action="Index" asp-route-id="@cloth.ClothID" class="prd-img image-hover-scale image-container">
+                                        <img src="~/clientt/images/cloth/@(cloth.ClothID).jpg" class="js-prd-img lazyload fade-up">
+                                        <div class="foxic-loader"></div>
+                                        <div class="prd-big-squared-labels">
+                                        </div>
+                                    </a>
+
+                                </div>
+                                <div class="prd-info">
+                                    <div class="prd-info-wrap">
+                                        <div class="prd-tag"><a href="#">@cloth.Category.CategoryName</a></div>
+                                        <h2 class="prd-title"><a href="product.html">@cloth.ClothName</a></h2>
+                                        <div class="prd-action">
+                                            <form action="#">
+                                                <button class="btn js-prd-addtocart" data-product='{"name": @cloth.ClothName, "path":"~/clientt/images/cloth/@(cloth.ClothID).jpg", "url":"product.html", "aspect_ratio":0.778}'>Sepete Ekle</button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="prd-hovers">
+                                        <div class="prd-price">
+
+                                            <div class="price-new">@cloth.Price TL</div>
+                                        </div>
+                                        <div class="prd-action">
+                                            <div class="prd-action-left">
+                                                <form action="#">
+                                                    <button class="btn js-prd-addtocart" data-product='{"name": @cloth.ClothName, "path":"~/clientt/images/skins/fashion/products/product-25-1.jpg", "url":"product.html", "aspect_ratio":0.778}'>Sepete Ekle</button>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer-sticky">
+
+   
+    <!-- back to top -->
+    <a class="back-to-top js-back-to-top compensate-for-scrollbar" href="#" title="Scroll To Top">
+        <i class="icon icon-angle-up"></i>
+    </a>
+    <!-- loader -->
+    <div class="loader-horizontal js-loader-horizontal">
+        <div class="progress">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 100%"></div>
+        </div>
+    </div>
+</div>
+
+<script src="js/vendor-special/lazysizes.min.js"></script>
+<script src="js/vendor-special/ls.bgset.min.js"></script>
+<script src="js/vendor-special/ls.aspectratio.min.js"></script>
+<script src="js/vendor-special/jquery.min.js"></script>
+<script src="js/vendor-special/jquery.ez-plus.js"></script>
+<script src="js/vendor-special/instafeed.min.js"></script>
+<script src="js/vendor/vendor.min.js"></script>
+<script src="js/app-html.js"></script>
